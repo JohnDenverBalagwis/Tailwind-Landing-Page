@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --Michroma-Font: "Michroma", sans-serif;
+  --BeauRivage-Font: "Beau Rivage", cursive;
+  --White: #ffffff;
+  --Black: #1d1c1b;
+  --NavyBlue: #004e92;
+  --LightBlue: #3498db;
+  --DarkGrey: #555;
+  --DarkBlue: #000428;
+  --Yellow: #f9e005;
+}
+.title-search,
+.title-yellow {
+  font-family: var(--BeauRivage-Font);
+}
+#title-yellow {
+  color: var(--Yellow);
+  text-shadow: 2px 2px 4px rgba(246, 241, 241, 0.5);
+}
+.title-white {
+  color: var(--White);
+  font-family: var(--Michroma-Font);
+  text-shadow: 2px 2px 4px rgba(246, 241, 241, 0.5);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--Michroma-Font);
+}
+body {
+  background: var(--DarkBlue);
+}
+header {
+  background-image: url("./images/lights.png");
+  background-size: cover;
+  background-position: center;
+}
