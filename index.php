@@ -12,7 +12,7 @@
     <header class="h-full">
         <nav class="flex items-center justify-between absolute w-full z-40">
             <div class="flex items-center text-white">
-                <figure class="w-20">
+                <figure class="w-20 ml-4 ">
                     <img src="./images/logo.png" alt="Informatics College Logo">
                 </figure>
                 <div class="text flex flex-col tracking-widest">
@@ -33,7 +33,7 @@
                 <p class="text-2xl title-search">Search for</p>
                 <h2 class="capitalize text-5xl title-yellow" id="title-yellow">Mr. & Ms.</h2>
                 <h1 class="uppercase text-7xl title-white">Icon</h1>
-                <input type="text" placeholder="Enter your search" class="rounded-md bg-white px-1 py-1.5 my-8  text-sm font-semibold text-black text-center shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+                <input type="text" placeholder="Username" class="rounded-md bg-white px-1 py-1.5 my-8  text-sm font-semibold text-black text-center shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
             </div>
         </section>
     </header>
